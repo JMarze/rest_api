@@ -9,4 +9,5 @@ public class ApiConfiguracion {
 
     //public static final String AuthToken =GetPropiedades.getInstance().getHost()+"/api/authentication/%s.json";
     public static final String GET_TOKEN=GetPropiedades.getInstance().getHost()+"/api/authentication/token.json";
+
 }

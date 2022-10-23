@@ -11,11 +11,28 @@ public class ProyectoTest {
     @Test
     public void verificarCrearProyectoJSONObject(){
 
+        ////////////// Token ////////////////>>>>>>>>>>>>>>>
+        Response response = given()
+                .auth()
+                .preemptive()
+                .basic("mmsalazar21k@gmail.com","67890")
+                .log() .all()
+                .when()
+                .get("https://todo.ly/api/authentication/token.json");
+
+
+        //Verificamos Token
+        response.then()
+                .log() .all()
+                .statusCode(200)
+                .body("UserEmail", equalTo("mmsalazar21k@gmail.com"));
+        ////////////// Token ////////////////<<<<<<<<<<<<<
+
         JSONObject body = new JSONObject();
         body.put("Content","MarcosCRUD");
         body.put("Icon",1);
 
-        Response response = given()
+        response = given()
                 .auth()
                 .preemptive()
                 .basic("mmsalazar21k@gmail.com","67890")
@@ -65,7 +82,7 @@ public class ProyectoTest {
                 .put("https://todo.ly/api/projects/"+idProyecto+".json");
 
 
-        //Verificamos la creacion de los proyectos
+        //Verificamos la actualizar proyecto
         response.then()
                 .log() .all()
                 .statusCode(200)
@@ -83,7 +100,7 @@ public class ProyectoTest {
                 .delete("https://todo.ly/api/projects/"+idProyecto+".json");
 
 
-        //Verificamos la creacion de los proyectos
+        //Verificamos la borrar proyecto
         response.then()
                 .log() .all()
                 .statusCode(200)

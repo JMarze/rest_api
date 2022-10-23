@@ -18,6 +18,7 @@ public class ProyectoTest {
 
     @Test
     public void verifyCRUDProject(){
+
         body.put("Content","Marcos2022");
         peticionInfo.setUrl(ApiConfiguracion.CREATE_PROJECT);
         peticionInfo.setBody(body.toString());
@@ -38,10 +39,20 @@ public class ProyectoTest {
         response = FabricaDePeticiones.make("get").send(peticionInfo);
         response.then().body("Content", equalTo(body.get("Content"))).statusCode(200);
 
+        ///////>>>>>>>>Token
+        body.put("UserEmail","mmsalazar21k@gmail.com");
+        peticionInfo.setUrl(String.format(ApiConfiguracion.GET_TOKEN));
+        peticionInfo.setBody(body.toString());
+        response = FabricaDePeticiones.make("get").send(peticionInfo);
+        response.then().body("UserEmail", equalTo("mmsalazar21k@gmail.com")).statusCode(200);
+        //////<<<<<<<<<
+
+        body.put("Content","MarcosUpdate2022");
         peticionInfo.setUrl(String.format(ApiConfiguracion.DELETE_PROJECT,idproy));
         peticionInfo.setBody(body.toString());
         response = FabricaDePeticiones.make("delete").send(peticionInfo);
         response.then().body("Content", equalTo(body.get("Content"))).statusCode(200);
+
 
 
     }
@@ -51,9 +62,10 @@ public class ProyectoTest {
 public void  createProject(){
 
     given()
-            .header("Token","2a3f92f2200f4d2a8b61465f1680dff9")
+            //.header("Token","2a3f92f2200f4d2a8b61465f1680dff9")
+            .header("Token","bW1zYWxhemFyMjFrQGdtYWlsLmNvbTo2Nzg5MA")
             .body("{\n" +
-                    "  \"Content\":\"EynarRestAssured\",\n" +
+                    "  \"Content\":\"Marcos2022\",\n" +
                     "  \"Icon\":\"4\"\n" +
                     "}")
             .log().all()
