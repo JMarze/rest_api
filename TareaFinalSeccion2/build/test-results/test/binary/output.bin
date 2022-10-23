@@ -1,0 +1,192 @@
+Request method:	POST
+0Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+HHeaders:		Authorization=Basic bW1zYWxhemFyMjFrQGdtYWlsLmNvbTo2Nzg5MA==
+				Accept=*/*
+1				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"Marcos2022"}
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=pxjzkpvknjlemk2ngso0uhgx; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Sun, 23 Oct 2022 00:40:05 GMT
+Content-Length: 399
+
+{
+    "Id": 4030455,
+    "Content": "Marcos2022",
+    "ItemsCount": 0,
+    "Icon": 0,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 26,
+    "Children": [
+	        
+    ],
+    "IsProjectShared": false,
+#    "ProjectShareOwnerName": null,
+$    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+3    "LastSyncedDateTime": "/Date(1666485606453)/",
+0    "LastUpdatedDate": "/Date(1666485606437)/",
+    "Deleted": false,
+!    "SyncClientCreationId": null
+}
+Request method:	PUT
+8Request URI:	https://todo.ly/api/projects/4030455.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+HHeaders:		Authorization=Basic bW1zYWxhemFyMjFrQGdtYWlsLmNvbTo2Nzg5MA==
+				Accept=*/*
+1				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+ {"Content":"MarcosUpdate2022"}
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=fwyfewpyvzz3suldgunr5t31; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Sun, 23 Oct 2022 00:40:08 GMT
+Content-Length: 405
+
+{
+    "Id": 4030455,
+#    "Content": "MarcosUpdate2022",
+    "ItemsCount": 0,
+    "Icon": 0,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 26,
+    "Children": [
+	        
+    ],
+    "IsProjectShared": false,
+#    "ProjectShareOwnerName": null,
+$    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+3    "LastSyncedDateTime": "/Date(1666485608434)/",
+0    "LastUpdatedDate": "/Date(1666485608433)/",
+    "Deleted": false,
+!    "SyncClientCreationId": null
+}
+Request method:	GET
+8Request URI:	https://todo.ly/api/projects/4030455.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+HHeaders:		Authorization=Basic bW1zYWxhemFyMjFrQGdtYWlsLmNvbTo2Nzg5MA==
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=aalnceexk0assphiz5ukplja; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Sun, 23 Oct 2022 00:40:09 GMT
+Content-Length: 405
+
+{
+    "Id": 4030455,
+#    "Content": "MarcosUpdate2022",
+    "ItemsCount": 0,
+    "Icon": 0,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 26,
+    "Children": [
+	        
+    ],
+    "IsProjectShared": false,
+#    "ProjectShareOwnerName": null,
+$    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+3    "LastSyncedDateTime": "/Date(1666485609838)/",
+0    "LastUpdatedDate": "/Date(1666485608433)/",
+    "Deleted": false,
+!    "SyncClientCreationId": null
+}
+Request method:	DELETE
+8Request URI:	https://todo.ly/api/projects/4030455.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+HHeaders:		Authorization=Basic bW1zYWxhemFyMjFrQGdtYWlsLmNvbTo2Nzg5MA==
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=bdtqqai432nahbwfslfzjzxx; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Sun, 23 Oct 2022 00:40:11 GMT
+Content-Length: 404
+
+{
+    "Id": 4030455,
+#    "Content": "MarcosUpdate2022",
+    "ItemsCount": 0,
+    "Icon": 0,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 26,
+    "Children": [
+	        
+    ],
+    "IsProjectShared": false,
+#    "ProjectShareOwnerName": null,
+$    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+3    "LastSyncedDateTime": "/Date(1666485611055)/",
+0    "LastUpdatedDate": "/Date(1666485611040)/",
+    "Deleted": true,
+!    "SyncClientCreationId": null
+}
