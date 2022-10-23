@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basicMetodoRest.ProyectoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-23T18:31:39" hostname="LAPTOP-CO7HVQVM" time="8.54">
+  <properties/>
+  <testcase name="verificarUsuario()" classname="basicMetodoRest.ProyectoTest" time="8.54"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://todo.ly/api/user.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic bW1zYWxhemFyMjFrQG91dGxvb2suY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"Email":"mmsalazar21k@outlook.com",
+"FullName":"PruebaCreaUsuario",
+"Password":"12345"
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=a0qyuomdj1ovlsgppd3mr2pc; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 23 Oct 2022 18:31:30 GMT
+Content-Length: 306
+
+{
+    "Id": 706621,
+    "Email": "mmsalazar21k@outlook.com",
+    "Password": null,
+    "FullName": "PruebaCreaUsuario",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 4031147,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+Request method:	GET
+Request URI:	https://todo.ly/api/user.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic bW1zYWxhemFyMjFrQG91dGxvb2suY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"Email":"mmsalazar21k@outlook.com"
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=2l0if2lpzes25vif0jlqzijl; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 23 Oct 2022 18:31:32 GMT
+Content-Length: 306
+
+{
+    "Id": 706621,
+    "Email": "mmsalazar21k@outlook.com",
+    "Password": null,
+    "FullName": "PruebaCreaUsuario",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 4031147,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+Request method:	PUT
+Request URI:	https://todo.ly/api/user/0.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic bW1zYWxhemFyMjFrQG91dGxvb2suY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"FullName":"PruebaModificarUsuario",
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=za4t0n13pjt2xaqbezbeg2rt; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 23 Oct 2022 18:31:34 GMT
+Content-Length: 311
+
+{
+    "Id": 706621,
+    "Email": "mmsalazar21k@outlook.com",
+    "Password": null,
+    "FullName": "PruebaModificarUsuario",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 4031147,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+Request method:	DELETE
+Request URI:	https://todo.ly/api/user/0.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic bW1zYWxhemFyMjFrQG91dGxvb2suY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"Email":"mmsalazar21k@outlook.com"
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=j4guwdsdjht0m5cfo4lm14f4; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 23 Oct 2022 18:31:36 GMT
+Content-Length: 311
+
+{
+    "Id": 706621,
+    "Email": "mmsalazar21k@outlook.com",
+    "Password": null,
+    "FullName": "PruebaModificarUsuario",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 4031147,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
